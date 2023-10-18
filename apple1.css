@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.apple{
+    width:100%;
+    height: 100vh;
+    position:fixed; 
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: 10px;
+    background-color:#333 ;
+    position: sticky;
+    height: 50px;
+    top: 0;
+   
+}    
+    
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 10px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: 20px;
+    position: fixed;
+    margin-left: 47px;
+    
+}
+nav .logo{
+    width: 16px;
+    margin-top: 0px;
+    margin-left: 50px;
+    position: sticky; 
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 26px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255)
+    
+}
+nav ul li a img{
+    width: 30px;
+   
+}
+
+.style{
+    text-decoration: none;
+    
+}
+.spark{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: contain;
+    cursor: pointer;
+    
+}
+.video{
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 27px;
+    Line-height: 25px;
+    justify-content: 20px; 
+    line-height: 120%; 
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left:  500px;
+    color: #f0e3ca;
+    margin-top: -20px;
+    margin-left: -210px;
+  
+}
+.video a{
+    text-decoration: none;
+    display: inline-block;
+    font-size:18px;
+    border:2px solid rgb(240, 167, 31);
+    padding: 3px 10px;
+    border-radius: 50px;
+    margin-top: 40px;
+    color: #f0e3ca;
+
+    
+}
+.video a:hover{
+  
+    background-color: rgb(240, 167, 31);
+}
+   
+
+.liveVideo {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+   
+}
+.iphone15pro{
+    margin-top: 10px;
+}
+.video2{
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 27px;
+    Line-height: 25px;
+    justify-content: 20px; 
+    line-height: 182%; 
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left:  500px;
+    color: white;
+    margin-top: 540px;
+    margin-left: -130px;
+   
+}
+.video2 a{
+   text-decoration: none;
+   color: rgb(0, 102, 204);
+   font-size: 22px;
+}
+.video2 h1{
+font-weight: 120px;
+}
+
+.video2 a:hover{
+    text-decoration: underline;
+}
+.livevideo2{
+    background-color: #f5f5f7;
+}
+.video3{
+    color: black;
+}
+.video3{
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 27px;
+    Line-height: 25px;
+    justify-content: 20px; 
+    line-height: 182%; 
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left:  500px;
+    color: white;
+    margin-top: 1140px;
+    margin-left: -130px; 
+   
+}
+.video3 a{
+   text-decoration: none;
+   color: rgb(0, 102, 204);
+   font-size: 23px;
+}
+.video3 a:hover{
+    text-decoration: underline;
+}
+.watch{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    width: 99%;
+    height: 1839px;
+    background-color: white;
+    
+}
+.watch1{
+    background-image: url("https://www.apple.com/newsroom/images/2023/09/apple-unveils-apple-watch-ultra-2/article/Apple-Watch-Ultra-2-hero-230912_Full-Bleed-Image.jpg.large_2x.jpg");
+    background-position: center;
+    background-size: 860px;
+    background-position-y: 150px;
+    background-repeat: no-repeat;
+    background-color: #fcfaf8;
+    text-align: center;
+    text-size-adjust: 200;
+    text-decoration: none;
+   
+    
+}
+.watch li{
+    text-decoration: none;
+}
+    .watch1 P{
+    font-family: "Core Sans E 65 Bold";
+    Font-size: 30px;
+    Font-weight: 2000;
+    Line-height: 25px;
+    Font-color: rgb(0, 0, 0);
+    margin-left: 230px;    
+}
+.watch1 a{
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 17px;
+    font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+.watch1 a:hover{
+    text-decoration: underline;
+}
+.watch2 a{
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+.watch2 a:hover{
+    text-decoration: underline;
+}
+.watch2{
+    background-image: url("https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/article/Apple-Watch-S9-hero-230912_Full-Bleed-Image.jpg.large_2x.jpg");
+    background-position: center;
+    background-size: 1147px;
+    background-position-y: 60px;
+    background-repeat: no-repeat;
+    background-color: black;
+    text-align: center;
+
+}
+.watch3 a{
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+.watch3 a:hover{
+    text-decoration: underline;
+}
+.watch3{
+    background-image: url("https://www.apple.com/newsroom/images/live-action/wwdc-2023/standard/macbook-air-15-in/Apple-WWDC23-MacBook-Air-15-in-hero-230605_big.jpg.large_2x.jpg");
+    background-position: center;
+    background-size: 717px;
+    background-repeat: no-repeat;
+    background-position-y: 140px;
+    background-color: #fcfaf8;
+    text-align: center;
+
+
+    
+
+}
+.watch4{
+    background-image: url("airpadprooo.png");
+    background-position: center;
+    background-size: 647px;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-color:black;
+    background-position-y: 100px;
+    text-align: center;
+
+
+}
+.watch4 a{
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+.watch4 a:hover{
+    text-decoration: underline;
+}
+.watch5{
+    background-image: url("https://www.officenewz.com/wp-content/uploads/2021/12/iphone-trade-in-value-exchange-smartphone.jpg");
+    background-position: center;
+    background-size: 847px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-y: 180px;
+    text-align: center;
+
+
+}
+.watch5 a{
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+.watch5 a:hover{
+    text-decoration: underline;
+}
+.watch6{
+    background-image: url("https://www.apple.com/v/airpods-pro/i/images/overview/case_front__r6ng7f1x18a6_large_2x.png");
+    background-position: center;
+    background-size: 387px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-color: black;
+    text-align: center;
+
+}
+.watch6 a{
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+.watch6 a:hover{
+    text-decoration: underline;
+}
+.appletv{
+    padding-top: 30px;
+    width: 100%;
+}
+.foot{
+Font-name:"SF Pro Text,Myriad Set Pro,SF Pro Icons,Apple Legacy Chevron,Helvetica Neue,Helvetica,Arial,sans-serif";
+Font-size:14px;
+font-weight:100px;
+Line-height: 16.0004px;
+Font-color: rgb(110, 110, 115);
+align-items: flex-start;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+ .footer a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 100px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer1{
+    margin-top: 30px;
+}
+.footer1 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 100px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer2{
+    margin-top: -340px;
+}
+.footer2 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 300px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.footer3{
+    margin-top: 30px;
+}
+.footer3 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 300px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.footer4{
+    margin-top: -319px;
+}
+.footer4 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 550px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.footer5{
+    margin-top: -240px;
+}
+.footer5 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 760px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.footer6{
+    margin-top: 20px;
+}
+.footer6 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 760px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.footer7{
+    margin-top: 20px;
+}
+.footer7 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 760px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.footer8{
+    margin-top: -280px;
+}
+.footer8 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 960px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+
+.footer9{
+    margin-top: 30px;
+}
+.footer9 a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(82, 76, 76);
+    list-style: none;
+    padding-left: 960px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.secondlast a{
+    color: rgb(0, 102, 204);
+    font-size: 17px;
+}
+.copyright {
+    
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
